@@ -1,0 +1,121 @@
+{
+  "app": "personadoc",
+  "schema_version": 1,
+  "exportado_em": "2026-10-19T03:22:04.397875Z",
+  "cliente_nome": "A Portamóvel",
+  "nicho": "Manutenção de portões para condomínios",
+  "status": "rascunho",
+  "dados": {
+    "cliente": {
+      "empresa": "A Portamóvel",
+      "segmento": "Manutenção de portões para condomínios",
+      "produto": "Manutenção preventiva (contrato mensal) e corretiva de portões de garagem e pedestres; emergência em até 6 h",
+      "localizacao": "São Paulo capital (sede na Freguesia do Ó)",
+      "descricao": "Empresa desde 1986 que atende somente condomínios prediais e residenciais (e comerciais) com manutenção, conserto e modernização de portões, gradis e automação.",
+      "concorrentes": "SOS Conserto de Portões, Mundo dos Portões, Port Reis, Manutenção Portão (anunciam 24h, diagnóstico grátis, garantia)",
+      "diferencial": "Só condomínios; técnicos próprios CLT e uniformizados; frota própria; emite ART; desde 1986; plantão; técnico em até 6 h",
+      "site": "https://www.aportamovel.com.br/lp/condominios",
+      "area": "São Paulo capital (7 raios na campanha)",
+      "nao_oferece": "Casas e residências avulsas; instalação nova para pessoa física; venda de peças/controles para consumidor",
+      "horarios": "Comercial seg–sex 7h–16h; plantão das 16h às 7h, fins de semana e feriados",
+      "garantia": "Garantia do serviço: A CONFIRMAR com o cliente",
+      "verba": "R$ 100/semana no 1º mês"
+    },
+    "persona": {
+      "nome": "Síndico Roberto",
+      "faixa_etaria": "45–54",
+      "genero": "Masculino",
+      "regiao": "São Paulo capital",
+      "ocupacao": "Síndico morador (empresário, administrador, aposentado ou engenheiro); às vezes síndico profissional",
+      "hobbies": "Hipótese: pouco tempo livre; resolve tudo pelo WhatsApp e pelo celular",
+      "valores": "Segurança do prédio, evitar reclamação de moradores, não ser responsabilizado, prestar contas ao conselho",
+      "rotina": "Trabalha fora; o zelador avisa quando algo quebra; decide rápido em emergência e com calma em contrato",
+      "cargo_decisor": "Síndico (morador ou profissional)",
+      "influenciadores": "Zelador/gerente predial (vê o problema), conselho e administradora (aprovam e indicam)",
+      "processo_compra": "Emergência: liga para quem atende na hora. Contrato: compara propostas, pede referências e documentação (contrato social, certidões, funcionários registrados, seguro)."
+    },
+    "dores": {
+      "principal": "Portão do condomínio quebrado (travado aberto ou fechado) e precisa resolver hoje, antes de virar problema de segurança e reclamação de moradores.",
+      "secundarias": "Portão que quebra toda hora (motor subdimensionado, uso intenso); empresa atual demora a vir; não sabe o que o contrato cobre.",
+      "ja_tentou": "Técnico avulso barato que não resolve; empresa que não atende fim de semana.",
+      "custo_emocional": "Pressão dos moradores, medo de furto com portão aberto, desgaste com conselho.",
+      "medos": "Ser responsabilizado por negligência; pagar e o problema voltar; empresa sem documentação.",
+      "desejos": "Portão funcionando sem dor de cabeça e uma empresa de confiança que resolva rápido.",
+      "transformacao": "Prédio seguro, moradores tranquilos, manutenção previsível com histórico técnico.",
+      "objecoes": "Preço do contrato; tempo de resposta real; o que está incluso (peças, chamados)."
+    },
+    "digital": {
+      "redes": [
+        "WhatsApp",
+        "Facebook",
+        "LinkedIn"
+      ],
+      "dispositivo": "Smartphone",
+      "frequencia": "Algumas horas/dia",
+      "formatos": [
+        "Grupos de WhatsApp",
+        "Artigos/blog"
+      ],
+      "referencias": "Portais do setor (SíndicoNet), administradora, grupos de síndicos",
+      "pesquisa": "Na emergência busca no Google pelo celular ('conserto de portão eletrônico') e olha o mapa e as avaliações; para contrato pede indicação."
+    },
+    "jornada": {
+      "consciencia": "Zelador avisa que o portão quebrou; síndico busca no Google ou liga para empresa conhecida.",
+      "consideracao": "Avaliações no Google, se atende condomínio, prazo de chegada, se tem equipe própria.",
+      "clique": "Prazo claro (até 6 h), 'só condomínios', plantão, empresa antiga.",
+      "gatilhos": [
+        "Prova social",
+        "Autoridade",
+        "Garantia"
+      ],
+      "duvidas": "Quanto custa a visita? Vem hoje? Atende fim de semana? Emite nota/ART?",
+      "momentos": "1) Emergência: decide em minutos (é onde está a busca no Google). 2) Contrato mensal: decide em semanas com conselho/administradora (busca baixa; vem de indicação ou de um bom atendimento de emergência).",
+      "tempo_decisao": "Minutos (urgência)"
+    },
+    "comunicacao": {
+      "tom": [
+        "Profissional",
+        "Direto ao ponto",
+        "Técnico/Especialista"
+      ],
+      "formalidade": "Semiformal",
+      "ressoam": "\"só condomínios\", \"técnico em até 6 horas\", \"equipe própria\", \"desde 1986\", \"plantão\"",
+      "evitar": "Promessas sem prova (24h se não houver, 'mais barato'); linguagem de consumidor final",
+      "big_idea": "A especialista em portões de condomínio: técnico próprio no local em até 6 horas, com plantão."
+    },
+    "ads": {
+      "palavras": "conserto de portão eletrônico\nconserto de portão automático\nconserto de portão\nmanutenção de portão\nmanutenção de portão eletrônico\ntécnico de portão eletrônico\nportão eletrônico não fecha\nportão eletrônico não abre\nconserto portão eletrônico 24 horas\nconserto de motor de portão\nportão de condomínio\nmanutenção de portão de condomínio",
+      "negativas": "casa, sobrado, residência, como fazer, curso, emprego, peças, comprar, instalação, cidades fora da capital (74 na campanha)",
+      "intencao": [
+        "Transacional (comprar agora)",
+        "Comercial (comparar)"
+      ],
+      "geo": "7 raios na capital (presença)",
+      "horarios_busca": "Lance cheio seg–sáb 6h–20h; −30% à noite e domingo; −50% madrugada",
+      "proposta": "Só condomínios, técnico em até 6 h, equipe própria desde 1986",
+      "titulos": "Portão de Condomínio Quebrado?\nSó para Condomínios\nTécnico em Até 6 Horas\nEquipe Própria Desde 1986\nContrato de Manutenção",
+      "descricoes": "Atendimento só para condomínios: síndicos, zeladores e administradoras. Sem residências.",
+      "ctas": "Ligue agora, Chame no WhatsApp, Peça orçamento",
+      "concorrentes_ads": "Hipótese: poucos anúncios à noite/domingo (observação pontual de 18/10/2026)"
+    },
+    "site": {
+      "cores": "Azul #09357a + vermelho #b91c1c",
+      "estilo": [
+        "Sério/Corporativo"
+      ],
+      "secoes": [
+        "Hero/Banner",
+        "Serviços/Produtos",
+        "Depoimentos",
+        "FAQ",
+        "Contato/CTA",
+        "Sobre/Quem somos"
+      ],
+      "cta": "Chamar no WhatsApp / Ligar para o plantão",
+      "prova_social": [
+        "Depoimentos escritos"
+      ],
+      "recursos": "Fotos reais da equipe e da frota; pedir avaliações no Google a cada atendimento"
+    }
+  }
+}

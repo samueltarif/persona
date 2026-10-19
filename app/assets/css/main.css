@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Identidade PersonaDoc: preto + dourado (referência da aula) */
+    --background: 0 0% 4%;
+    --foreground: 0 0% 96%;
+    --surface: 0 0% 9%;
+    --surface-2: 0 0% 13%;
+    --border: 0 0% 18%;
+    --input: 0 0% 20%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 62%;
+    --gold: 45 93% 58%;
+    --gold-soft: 45 60% 14%;
+    --gold-foreground: 0 0% 6%;
+    --destructive: 0 72% 51%;
+    --ring: 45 93% 58%;
+    --radius: 0.75rem;
+  }
+
+  * { border-color: hsl(var(--border)); }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .field-label {
+    @apply block text-[11px] font-semibold uppercase tracking-[0.08em] text-muted-foreground;
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-gold/40 bg-gold-soft px-3 py-1 text-[11px] font-bold uppercase tracking-[0.12em] text-gold;
+  }
+}
+
+/* Impressão / Exportar PDF: só o documento, sem navegação */
+@media print {
+  @page { size: A4; margin: 14mm; }
+  body { background: #fff !important; color: #111 !important; }
+  .no-print { display: none !important; }
+  .print-only { display: block !important; }
+  .print-break { break-inside: avoid; page-break-inside: avoid; }
+}
+.print-only { display: none; }

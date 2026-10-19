@@ -1,0 +1,30 @@
+{
+  "name": "personadoc",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@lucide/vue": "^1.31.0",
+    "@nuxtjs/supabase": "^2.0.10",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@vueuse/core": "^14.4.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "nuxt": "^4.5.2",
+    "reka-ui": "^2.10.3",
+    "tailwind-merge": "^3.6.0",
+    "vue": "^3.5.40",
+    "vue-router": "^5.2.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vue-tsc": "^2.2.10"
+  }
+}
